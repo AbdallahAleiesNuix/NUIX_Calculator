@@ -1,0 +1,900 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-16T05:33:08.385Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2494255000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "nuix.calc.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Verifying numbers work",
+        "description": "",
+        "id": "all-functionalities;verifying-numbers-work",
+        "after": [
+          {
+            "result": {
+              "duration": 82402000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "nuix.calc.stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 262593000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user is on the Calculator app",
+            "match": {
+              "location": "nuix.calc.stepDefinitions.Calculator_StepDefinition.the_user_is_on_the_Calculator_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 889221000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user verifies all numbers work on the calculator",
+            "match": {
+              "location": "nuix.calc.stepDefinitions.Calculator_StepDefinition.the_user_verifies_all_numbers_work_on_the_calculator()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@allFunctionalities"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-16T05:33:12.175Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1157842000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "nuix.calc.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Typing multiple zeros",
+        "description": "",
+        "id": "all-functionalities;typing-multiple-zeros",
+        "after": [
+          {
+            "result": {
+              "duration": 81971000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "nuix.calc.stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 237333000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user is on the Calculator app",
+            "match": {
+              "location": "nuix.calc.stepDefinitions.Calculator_StepDefinition.the_user_is_on_the_Calculator_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 217857000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The user performs the following operation \"0000000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0000000\"",
+                  "offset": 42
+                }
+              ],
+              "location": "nuix.calc.stepDefinitions.Calculator_StepDefinition.the_user_performs_the_following_operation(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5026177000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The user verifies the result is \"0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0\"",
+                  "offset": 32
+                }
+              ],
+              "location": "nuix.calc.stepDefinitions.Calculator_StepDefinition.the_user_verifies_the_result_is(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@allFunctionalities"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-16T05:33:18.903Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1143172000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "nuix.calc.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Typing multiple zeros before a number",
+        "description": "",
+        "id": "all-functionalities;typing-multiple-zeros-before-a-number",
+        "after": [
+          {
+            "result": {
+              "duration": 80932000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "nuix.calc.stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 206394000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The user is on the Calculator app",
+            "match": {
+              "location": "nuix.calc.stepDefinitions.Calculator_StepDefinition.the_user_is_on_the_Calculator_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 263212000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "The user performs the following operation \"00000007\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"00000007\"",
+                  "offset": 42
+                }
+              ],
+              "location": "nuix.calc.stepDefinitions.Calculator_StepDefinition.the_user_performs_the_following_operation(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5023543000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "The user verifies the result is \"7\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"7\"",
+                  "offset": 32
+                }
+              ],
+              "location": "nuix.calc.stepDefinitions.Calculator_StepDefinition.the_user_verifies_the_result_is(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@allFunctionalities"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-16T05:33:25.626Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1137854000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "nuix.calc.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Verifying decimal point works in an operation",
+        "description": "",
+        "id": "all-functionalities;verifying-decimal-point-works-in-an-operation",
+        "after": [
+          {
+            "result": {
+              "duration": 81633000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "nuix.calc.stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 448559000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The user is on the Calculator app",
+            "match": {
+              "location": "nuix.calc.stepDefinitions.Calculator_StepDefinition.the_user_is_on_the_Calculator_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 237860000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The user performs the following operation \"2.1 + 2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2.1 + 2\"",
+                  "offset": 42
+                }
+              ],
+              "location": "nuix.calc.stepDefinitions.Calculator_StepDefinition.the_user_performs_the_following_operation(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5029479000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The user verifies the result is \"4.1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4.1\"",
+                  "offset": 32
+                }
+              ],
+              "location": "nuix.calc.stepDefinitions.Calculator_StepDefinition.the_user_verifies_the_result_is(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@allFunctionalities"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-16T05:33:32.566Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1199223000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "nuix.calc.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Verifying subtraction",
+        "description": "",
+        "id": "all-functionalities;verifying-subtraction",
+        "after": [
+          {
+            "result": {
+              "duration": 81192000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "nuix.calc.stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 317740000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "The user is on the Calculator app",
+            "match": {
+              "location": "nuix.calc.stepDefinitions.Calculator_StepDefinition.the_user_is_on_the_Calculator_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 163708000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "The user performs the following operation \"3 - 1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3 - 1\"",
+                  "offset": 42
+                }
+              ],
+              "location": "nuix.calc.stepDefinitions.Calculator_StepDefinition.the_user_performs_the_following_operation(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5029085000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "The user verifies the result is \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 32
+                }
+              ],
+              "location": "nuix.calc.stepDefinitions.Calculator_StepDefinition.the_user_verifies_the_result_is(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@allFunctionalities"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-16T05:33:39.362Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1091546000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "nuix.calc.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Verifying addition",
+        "description": "",
+        "id": "all-functionalities;verifying-addition",
+        "after": [
+          {
+            "result": {
+              "duration": 81594000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "nuix.calc.stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 607250000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "The user is on the Calculator app",
+            "match": {
+              "location": "nuix.calc.stepDefinitions.Calculator_StepDefinition.the_user_is_on_the_Calculator_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 180377000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "The user performs the following operation \"3 + 1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3 + 1\"",
+                  "offset": 42
+                }
+              ],
+              "location": "nuix.calc.stepDefinitions.Calculator_StepDefinition.the_user_performs_the_following_operation(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5027226000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "The user verifies the result is \"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4\"",
+                  "offset": 32
+                }
+              ],
+              "location": "nuix.calc.stepDefinitions.Calculator_StepDefinition.the_user_verifies_the_result_is(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@allFunctionalities"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-16T05:33:46.357Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1163185000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "nuix.calc.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Verifying Division",
+        "description": "",
+        "id": "all-functionalities;verifying-division",
+        "after": [
+          {
+            "result": {
+              "duration": 83689000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "nuix.calc.stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 586987000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "The user is on the Calculator app",
+            "match": {
+              "location": "nuix.calc.stepDefinitions.Calculator_StepDefinition.the_user_is_on_the_Calculator_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 199301000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "The user performs the following operation \"10 / 2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10 / 2\"",
+                  "offset": 42
+                }
+              ],
+              "location": "nuix.calc.stepDefinitions.Calculator_StepDefinition.the_user_performs_the_following_operation(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5023701000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "The user verifies the result is \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5\"",
+                  "offset": 32
+                }
+              ],
+              "location": "nuix.calc.stepDefinitions.Calculator_StepDefinition.the_user_verifies_the_result_is(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@allFunctionalities"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-16T05:33:53.421Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1143195000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "nuix.calc.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "Verifying Division of a negative number by a positive number",
+        "description": "",
+        "id": "all-functionalities;verifying-division-of-a-negative-number-by-a-positive-number",
+        "after": [
+          {
+            "result": {
+              "duration": 81208000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "nuix.calc.stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 421381000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "The user is on the Calculator app",
+            "match": {
+              "location": "nuix.calc.stepDefinitions.Calculator_StepDefinition.the_user_is_on_the_Calculator_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 205886000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "The user performs the following operation \"-4 / 2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"-4 / 2\"",
+                  "offset": 42
+                }
+              ],
+              "location": "nuix.calc.stepDefinitions.Calculator_StepDefinition.the_user_performs_the_following_operation(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5026400000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "The user verifies the result is \"-2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"-2\"",
+                  "offset": 32
+                }
+              ],
+              "location": "nuix.calc.stepDefinitions.Calculator_StepDefinition.the_user_verifies_the_result_is(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@allFunctionalities"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-16T05:34:00.304Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1204554000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "nuix.calc.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 48,
+        "name": "Clicking multiplication sign multiple times",
+        "description": "",
+        "id": "all-functionalities;clicking-multiplication-sign-multiple-times",
+        "after": [
+          {
+            "result": {
+              "duration": 81160000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "nuix.calc.stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 459454000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "The user is on the Calculator app",
+            "match": {
+              "location": "nuix.calc.stepDefinitions.Calculator_StepDefinition.the_user_is_on_the_Calculator_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 173527000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "The user performs the following operation \"2 × 3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2 × 3\"",
+                  "offset": 42
+                }
+              ],
+              "location": "nuix.calc.stepDefinitions.Calculator_StepDefinition.the_user_performs_the_following_operation(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5028831000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "The user verifies the result is \"6\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"6\"",
+                  "offset": 32
+                }
+              ],
+              "location": "nuix.calc.stepDefinitions.Calculator_StepDefinition.the_user_verifies_the_result_is(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@allFunctionalities"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-16T05:34:07.258Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1095913000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "nuix.calc.stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 55,
+        "name": "Subtracting two negative integers",
+        "description": "",
+        "id": "all-functionalities;subtracting-two-negative-integers",
+        "after": [
+          {
+            "result": {
+              "duration": 78687000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "nuix.calc.stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 235605000,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "The user is on the Calculator app",
+            "match": {
+              "location": "nuix.calc.stepDefinitions.Calculator_StepDefinition.the_user_is_on_the_Calculator_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 205562000,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "The user performs the following operation \"-9 - -4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"-9 - -4\"",
+                  "offset": 42
+                }
+              ],
+              "location": "nuix.calc.stepDefinitions.Calculator_StepDefinition.the_user_performs_the_following_operation(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: \nResult verification failed.\nExpected result: -5\nActual result: -13\n expected:\u003c-[5]\u003e but was:\u003c-[13]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat nuix.calc.pages.CalculatorPage.verifyResult(CalculatorPage.java:210)\n\tat nuix.calc.stepDefinitions.Calculator_StepDefinition.the_user_verifies_the_result_is(Calculator_StepDefinition.java:40)\n\tat ✽.The user verifies the result is \"-5\"(file:///Users/abdallah/Desktop/Nuix_Calculator/src/test/resources/nuix/calc/features/All_functionalities.feature:58)\n",
+              "duration": 5027671000,
+              "status": "failed"
+            },
+            "line": 58,
+            "name": "The user verifies the result is \"-5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"-5\"",
+                  "offset": 32
+                }
+              ],
+              "location": "nuix.calc.stepDefinitions.Calculator_StepDefinition.the_user_verifies_the_result_is(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@allFunctionalities"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "All functionalities",
+    "description": "",
+    "id": "all-functionalities",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/nuix/calc/features/All_functionalities.feature",
+    "tags": [
+      {
+        "name": "@allFunctionalities",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 21
+        }
+      }
+    ]
+  }
+]
