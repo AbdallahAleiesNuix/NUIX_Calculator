@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="nuix.calc.runners.MainRunner" time="65.612" tests="10" errors="0" skipped="0" failures="1">
+<testsuite name="nuix.calc.runners.MainRunner" time="65.746" tests="10" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="17.0.1+1"/>
@@ -61,16 +61,16 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="Verifying numbers work" classname="All functionalities" time="3.876"/>
-  <testcase name="Typing multiple zeros" classname="All functionalities" time="6.728"/>
-  <testcase name="Typing multiple zeros before a number" classname="All functionalities" time="6.722"/>
-  <testcase name="Verifying decimal point works in an operation" classname="All functionalities" time="6.941"/>
-  <testcase name="Verifying subtraction" classname="All functionalities" time="6.796"/>
-  <testcase name="Verifying addition" classname="All functionalities" time="6.995"/>
-  <testcase name="Verifying Division" classname="All functionalities" time="7.064"/>
-  <testcase name="Verifying Division of a negative number by a positive number" classname="All functionalities" time="6.883"/>
-  <testcase name="Clicking multiplication sign multiple times" classname="All functionalities" time="6.953"/>
-  <testcase name="Subtracting two negative integers" classname="All functionalities" time="6.654">
+  <testcase name="Verifying numbers work" classname="All functionalities" time="3.897"/>
+  <testcase name="Typing multiple zeros" classname="All functionalities" time="6.899"/>
+  <testcase name="Typing multiple zeros before a number" classname="All functionalities" time="6.844"/>
+  <testcase name="Verifying decimal point works in an operation" classname="All functionalities" time="7.073"/>
+  <testcase name="Verifying subtraction" classname="All functionalities" time="6.821"/>
+  <testcase name="Verifying addition" classname="All functionalities" time="6.948"/>
+  <testcase name="Verifying Division" classname="All functionalities" time="6.757"/>
+  <testcase name="Verifying Division of a negative number by a positive number" classname="All functionalities" time="6.896"/>
+  <testcase name="Clicking multiplication sign multiple times" classname="All functionalities" time="6.842"/>
+  <testcase name="Subtracting two negative integers" classname="All functionalities" time="6.769">
     <failure message="&#10;Result verification failed.&#10;Expected result: -5&#10;Actual result: -13&#10; expected:&lt;-[5]&gt; but was:&lt;-[13]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: 
 Result verification failed.
 Expected result: -5
@@ -98,15 +98,15 @@ Actual result: -13
 	at ✽.The user verifies the result is "-5"(file:///Users/abdallah/Desktop/Nuix_Calculator/src/test/resources/nuix/calc/features/All_functionalities.feature:58)
 &amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 55702
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 52351
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Dec 16, 2021 12:34:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Dec 16, 2021 1:01:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Dec 16, 2021 12:34:08 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Dec 16, 2021 1:01:54 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 96, so returning the closest version found: 95
-Dec 16, 2021 12:34:08 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Dec 16, 2021 1:01:54 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 96 of 95
 ]]></system-err>
   </testcase>
